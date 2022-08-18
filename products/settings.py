@@ -14,10 +14,10 @@ NEWSPIDER_MODULE = 'products.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'products (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -37,34 +37,34 @@ ROBOTSTXT_OBEY = True
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-#DEFAULT_REQUEST_HEADERS = {
+# DEFAULT_REQUEST_HEADERS = {
 #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 #   'Accept-Language': 'en',
-#}
+# }
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
+# SPIDER_MIDDLEWARES = {
 #    'products.middlewares.ProductsSpiderMiddleware': 543,
-#}
+# }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+# DOWNLOADER_MIDDLEWARES = {
 #    'products.middlewares.ProductsDownloaderMiddleware': 543,
-#}
+# }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
+# EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+# }
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+# ITEM_PIPELINES = {
 #    'products.pipelines.ProductsPipeline': 300,
-#}
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
